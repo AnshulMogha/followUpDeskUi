@@ -7,7 +7,7 @@ import { Records } from './pages/Records';
 function App() {
   return (
     <AuthProvider>
-      <BrowserRouter basename='/followupdesk/'>
+      <BrowserRouter basename='/followupdesk'>
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route
